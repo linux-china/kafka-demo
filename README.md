@@ -34,3 +34,9 @@ providers {
     kafka = "/Users/your_name/gopath/bin/terraform-provider-kafka"
 }
 ```
+
+### References
+
+* http://kafka.apache.org/
+* https://www.terraform.io/
+* https://github.com/yahoo/kafka-manager
