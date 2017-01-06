@@ -2,6 +2,19 @@ Kafka Demo
 ==========
 Demo project to interact with Kafka
 
+### Development
+Please read following instructions before coding.
+
+```bash
+  $ docker-compose up -d
+  $ terraform apply
+  $ open http://localhost:900
+```
+please click "Add Cluster" in Yahoo Kafka Manager with following settings:
+```
+Cluster Zookeeper Hosts = kafka:2181
+Kafka Version = 0.9.0.1
+```
 
 ### Features
 
