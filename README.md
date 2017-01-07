@@ -37,7 +37,7 @@ providers {
 
 ### References
 
-* Kakfa Homepage:  http://kafka.apache.org/
+* kafka Homepage:  http://kafka.apache.org/
 * Spring Kafka: http://docs.spring.io/spring-kafka/docs/1.1.2.RELEASE/reference/html/
 * Terraform: https://www.terraform.io/
 * Kafka Manager: https://github.com/yahoo/kafka-manager
