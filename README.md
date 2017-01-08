@@ -2,7 +2,17 @@ Kafka Demo
 ==========
 Demo project to interact with Kafka
 
-### Development
+### Development with local Kafka
+
+```
+$ jenv install kafka 0.10.1.1
+$ jenv cd kafka
+$ bin/zookeeper-server-start.sh config/zookeeper.properties &
+$ bin/kafka-server-start.sh config/server.properties &
+$ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic testTopic
+```
+
+### Development with Docker
 Please read following instructions before coding.
 
 ```bash
