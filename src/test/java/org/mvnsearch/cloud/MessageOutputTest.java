@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cloud.stream.messaging.Source;
 import org.springframework.integration.support.MessageBuilder;
+import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.Message;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -22,7 +23,9 @@ public class MessageOutputTest {
 
     @Test
     public void testSend() {
-        Message<String> message = MessageBuilder.withPayload("Good Afternoon").setHeader("accoutId","1").build();
+        Message<String> message = MessageBuilder.withPayload("Good Afternoon")
+                .setHeader(KafkaHeaders.MESSAGE_KEY, "1".getBytes())
+                .build();
         source.output().send(message);
     }
 }
