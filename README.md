@@ -25,12 +25,6 @@ please click "Add Cluster" in Yahoo Kafka Manager with following settings:
 Cluster Zookeeper Hosts = kafka:2181
 Kafka Version = 0.9.0.1
 ```
-**Attention:** ZooKeeper中保存Kafka broker的地址是容器名称，如下 /brokers/ids/0 的内容如下：
-
-```
-{"jmx_port":-1,"timestamp":"1483884382705","endpoints":["PLAINTEXT://81915309fbe1:9092"],"host":"81915309fbe1","version":2,"port":9092}
-```
-所以需要将图示中container id对应的ip添加到/etc/hosts才能进行测试。
 
 ### Features
 
