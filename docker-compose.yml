@@ -6,13 +6,13 @@ services:
        - "2181:2181"
        - "9092:9092"
      environment:
-        ADVERTISED_HOST: 127.0.0.1
+       ADVERTISED_HOST: 127.0.0.1
    kafka-manager:
      image: sheepkiller/kafka-manager
      ports:
        - "9000:9000"
      links:
-        - kafka
+       - kafka
      environment:
        APPLICATION_SECRET: 123456
        ZK_HOSTS: kafka:2181
