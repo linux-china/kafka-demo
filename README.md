@@ -18,7 +18,7 @@ Please read following instructions before coding.
 ```bash
   $ docker-compose up -d
   $ terraform apply
-  $ open http://localhost:900
+  $ open http://localhost:9000
 ```
 please click "Add Cluster" in Yahoo Kafka Manager with following settings:
 ```
