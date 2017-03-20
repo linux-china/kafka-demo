@@ -45,6 +45,13 @@ providers {
 }
 ```
 
+### Attention
+
+* please add following code to get you rid of the ZK issue with brokers connection.
+
+```
+spring.cloud.stream.kafka.binder.autoCreateTopics=false
+```
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
