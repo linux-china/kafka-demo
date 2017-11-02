@@ -14,8 +14,6 @@ services:
        KAFKA_ADVERTISED_HOST_NAME: 127.0.01
        KAFKA_CREATE_TOPICS: "Topic1:1:1:delete,testTopic:1:1:delete"
        KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-     volumes:
-       - /var/run/docker.sock:/var/run/docker.sock
    kafka-manager:
      image: sheepkiller/kafka-manager
      ports:
