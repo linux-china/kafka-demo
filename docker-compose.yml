@@ -1,12 +1,19 @@
-version: '2'
+version: '3'
 services:
-   kafka:
-     image: spotify/kafka:0.10.2.0
+   zookeeper:
+     image: zookeeper:3.4.10
      ports:
        - "2181:2181"
+       - "2888:2888"
+       - "3888:3888"
+   kafka:
+     image: wurstmeister/kafka:1.0.0
+     ports:
        - "9092:9092"
      environment:
-       ADVERTISED_HOST: 127.0.0.1
+       KAFKA_ADVERTISED_HOST_NAME: 30.11.183.84
+       KAFKA_CREATE_TOPICS: "Topic1:1:1:delete,testTopic:1:1:delete"
+       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
    kafka-manager:
      image: sheepkiller/kafka-manager
      ports:
@@ -15,4 +22,4 @@ services:
        - kafka
      environment:
        APPLICATION_SECRET: 123456
-       ZK_HOSTS: kafka:2181
+       ZK_HOSTS: zookeeper:2181
