@@ -1,7 +1,7 @@
 version: '3'
 services:
    zookeeper:
-     image: zookeeper:3.4.10
+     image: zookeeper:3.4.11
      ports:
        - "2181:2181"
        - "2888:2888"
