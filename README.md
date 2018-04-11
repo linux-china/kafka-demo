@@ -22,7 +22,7 @@ Please read following instructions before coding.
 ```
 please click "Add Cluster" in Yahoo Kafka Manager with following settings:
 ```
-Cluster Zookeeper Hosts = kafka:2181
+Cluster Zookeeper Hosts = zookeeper:2181
 Kafka Version = 0.9.0.1
 ```
 
@@ -30,7 +30,7 @@ Kafka Version = 0.9.0.1
 
 * docker-compose
 * Spring Cloud Stream
-* Spring Boot 1.5 Kafka support
+* Spring Boot 2.0.1 Kafka support
 
 ### Unit Test
 
