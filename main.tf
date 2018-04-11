@@ -3,12 +3,13 @@ provider "kafka" {
 }
 
 resource "kafka_topic" "secondTopic" {
-  name               = "secondTopic"
+  name = "secondTopic"
   replication_factor = 1
-  partitions         = 200
+  partitions = 200
 
   config = {
-    "segment.ms"   = "4000"
+    "segment.ms" = "4000"
+    "cleanup.policy" = "delete"
     "retention.ms" = "86400000"
   }
 }
