@@ -32,6 +32,10 @@ Kafka Version = 0.9.0.1
 * Spring Cloud Stream
 * Spring Boot 1.5 Kafka support
 
+### Unit Test
+
+Kafka Unit: https://github.com/chbatey/kafka-unit
+
 ### Kafka Terraform Provider
 
 * please execute following to build binary:
