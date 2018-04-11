@@ -1,10 +1,14 @@
 provider "kafka" {
-  zookeeper = "localhost"
+  bootstrap_servers = ["localhost:9092"]
 }
 
-resource "kafka_topic" "testTopic" {
-  name = "testTopic"
-  partitions = 1
+resource "kafka_topic" "secondTopic" {
+  name               = "secondTopic"
   replication_factor = 1
-  cleanup_policy = "delete"
+  partitions         = 200
+
+  config = {
+    "segment.ms"   = "4000"
+    "retention.ms" = "86400000"
+  }
 }
