@@ -20,6 +20,7 @@ services:
        - "9000:9000"
      links:
        - kafka
+       - zookeeper
      environment:
        APPLICATION_SECRET: 123456
        ZK_HOSTS: zookeeper:2181
