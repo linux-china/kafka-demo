@@ -17,6 +17,6 @@ public class KafkaDemoApplication {
 
     @StreamListener(Sink.INPUT)
     public void log(String payload) {
-        System.out.println(payload);
+        System.out.println("Payload:" + payload);
     }
 }
