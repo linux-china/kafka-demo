@@ -59,7 +59,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
-* Spring Kafka: http://docs.spring.io/spring-kafka/docs/1.1.2.RELEASE/reference/html/
+* Spring Kafka: https://docs.spring.io/spring-kafka/docs/2.2.0.RELEASE/reference/html/
 * Reactor Kafka: https://projectreactor.io/docs/kafka/release/reference/
 * Terraform: https://www.terraform.io/
 * Kafka Manager: https://github.com/yahoo/kafka-manager
