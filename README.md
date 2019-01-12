@@ -2,16 +2,6 @@ Kafka Demo
 ==========
 Demo project to interact with Kafka
 
-### Development with local Kafka
-
-```
-$ jenv install kafka 0.10.1.1
-$ jenv cd kafka
-$ bin/zookeeper-server-start.sh config/zookeeper.properties &
-$ bin/kafka-server-start.sh config/server.properties &
-$ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic testTopic
-```
-
 ### Development with Docker
 Please read following instructions before coding.
 
@@ -30,7 +20,9 @@ Kafka Version = 0.9.0.1
 
 * docker-compose
 * Spring Cloud Stream
-* Spring Boot 2.0.1 Kafka support
+* Spring Boot 2.1.2 Kafka support
+* Kafka Streams
+* justfile to send messages from command line
 
 ### Unit Test
 
