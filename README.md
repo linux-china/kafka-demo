@@ -41,6 +41,9 @@ providers {
 }
 ```
 
+### Confluent Platform
+It's very easy for local development with lots of tools.  https://www.confluent.io/
+
 ### Attention
 
 * please add following code to get you rid of the ZK issue with brokers connection.
