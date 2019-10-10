@@ -14,17 +14,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
+        <version>2.1.9.RELEASE</version>
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <spring.version>5.2.0.RELEASE</spring.version>
+        <spring-integration.version>5.2.0.RELEASE</spring-integration.version>
         <kafka.version>2.3.0</kafka.version>
-        <spring-kafka.version>2.2.7.RELEASE</spring-kafka.version>
-        <spring-integration-kafka.version>3.1.4.RELEASE</spring-integration-kafka.version>
-        <reactor-kafka.version>1.1.1.RELEASE</reactor-kafka.version>
+        <spring-kafka.version>2.3.0.RELEASE</spring-kafka.version>
+        <spring-integration-kafka.version>3.2.0.RELEASE</spring-integration-kafka.version>
+        <reactor-kafka.version>1.2.0.RELEASE</reactor-kafka.version>
     </properties>
 
     <dependencies>
@@ -76,16 +78,23 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>${spring.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-stream-dependencies</artifactId>
-                <version>Germantown.RELEASE</version>
+                <version>Germantown.SR1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework.integration</groupId>
                 <artifactId>spring-integration-bom</artifactId>
-                <version>5.1.6.RELEASE</version>
+                <version>${spring-integration.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -93,14 +102,14 @@
     </dependencyManagement>
 
     <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/libs-milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
+        <!-- <repository>
+             <id>spring-milestones</id>
+             <name>Spring Milestones</name>
+             <url>https://repo.spring.io/libs-milestone</url>
+             <snapshots>
+                 <enabled>false</enabled>
+             </snapshots>
+         </repository>-->
     </repositories>
 
     <build>
