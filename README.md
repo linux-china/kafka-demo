@@ -51,6 +51,7 @@ It's very easy for local development with lots of tools.  https://www.confluent.
 ```
 spring.cloud.stream.kafka.binder.autoCreateTopics=false
 ```
+
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
@@ -58,3 +59,4 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * Reactor Kafka: https://projectreactor.io/docs/kafka/release/reference/
 * Terraform: https://www.terraform.io/
 * Kafka Manager: https://github.com/yahoo/kafka-manager
+* Kafka Summit San Francisco 2019: https://www.confluent.io/resources/kafka-summit-san-francisco-2019/
