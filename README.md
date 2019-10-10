@@ -20,7 +20,7 @@ Kafka Version = 0.9.0.1
 
 * docker-compose
 * Spring Cloud Stream
-* Spring Boot 2.1.2 Kafka support
+* Spring Boot 2.1.9 Kafka support
 * Kafka Streams
 * justfile to send messages from command line
 
@@ -55,7 +55,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
-* Spring Kafka: https://docs.spring.io/spring-kafka/docs/2.2.0.RELEASE/reference/html/
+* Spring Kafka: https://docs.spring.io/spring-kafka/docs/2.3.0.RELEASE/reference/html/
 * Reactor Kafka: https://projectreactor.io/docs/kafka/release/reference/
 * Terraform: https://www.terraform.io/
 * Kafka Manager: https://github.com/yahoo/kafka-manager
