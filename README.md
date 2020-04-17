@@ -26,7 +26,7 @@ Kafka Version = 0.9.0.1
 
 ### Unit Test
 
-Kafka Unit: https://github.com/chbatey/kafka-unit
+Kafka JUnit: https://github.com/salesforce/kafka-junit/tree/master/kafka-junit5
 
 ### Kafka Terraform Provider
 
