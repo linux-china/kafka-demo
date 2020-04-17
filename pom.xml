@@ -23,7 +23,7 @@
         <java.version>1.8</java.version>
         <spring.version>5.2.5.RELEASE</spring.version>
         <spring-integration.version>5.2.5.RELEASE</spring-integration.version>
-        <kafka.version>2.4.0</kafka.version>
+        <kafka.version>2.5.0</kafka.version>
         <spring-kafka.version>2.4.5.RELEASE</spring-kafka.version>
         <spring-integration-kafka.version>3.2.1.RELEASE</spring-integration-kafka.version>
         <reactor-kafka.version>1.2.2.RELEASE</reactor-kafka.version>
@@ -73,6 +73,12 @@
             <version>3.2.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.12</artifactId>
+            <version>${kafka.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -87,7 +93,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-stream-dependencies</artifactId>
-                <version>Germantown.SR1</version>
+                <version>Horsham.SR3</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -107,18 +113,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <repositories>
-        <!-- <repository>
-             <id>spring-milestones</id>
-             <name>Spring Milestones</name>
-             <url>https://repo.spring.io/libs-milestone</url>
-             <snapshots>
-                 <enabled>false</enabled>
-             </snapshots>
-         </repository>-->
-    </repositories>
-
+    
     <build>
         <plugins>
             <plugin>
