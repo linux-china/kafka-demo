@@ -60,3 +60,4 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * Terraform: https://www.terraform.io/
 * Kafka Manager: https://github.com/yahoo/kafka-manager
 * Kafka Summit San Francisco 2019: https://www.confluent.io/resources/kafka-summit-san-francisco-2019/
+* kafkacat: Generic non-JVM producer and consumer for Apache Kafka >=0.8, think of it as a netcat for Kafka https://github.com/edenhill/kafkacat
