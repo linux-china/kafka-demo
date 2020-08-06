@@ -24,8 +24,8 @@
         <spring.version>5.2.8.RELEASE</spring.version>
         <spring-integration.version>5.3.1.RELEASE</spring-integration.version>
         <kafka.version>2.5.0</kafka.version>
-        <spring-kafka.version>2.5.3.RELEASE</spring-kafka.version>
-        <spring-integration-kafka.version>3.3.0.RELEASE</spring-integration-kafka.version>
+        <spring-kafka.version>2.5.4.RELEASE</spring-kafka.version>
+        <spring-integration-kafka.version>3.3.1.RELEASE</spring-integration-kafka.version>
         <reactor-kafka.version>1.2.2.RELEASE</reactor-kafka.version>
     </properties>
 
@@ -61,6 +61,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.streamthoughts</groupId>
+            <artifactId>kafka-clients-kotlin</artifactId>
+            <version>0.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
