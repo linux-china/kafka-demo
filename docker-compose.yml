@@ -9,7 +9,7 @@ services:
     environment:
       ALLOW_ANONYMOUS_LOGIN: yes
   kafka:
-    image: wurstmeister/kafka:2.12-2.5.0
+    image: wurstmeister/kafka:2.13-2.6.0
     ports:
       - "9092:9092"
     environment:
