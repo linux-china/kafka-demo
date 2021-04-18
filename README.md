@@ -57,6 +57,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * kafka Homepage:  http://kafka.apache.org/
 * Spring Kafka: https://docs.spring.io/spring-kafka/docs/2.3.0.RELEASE/reference/html/
 * Reactor Kafka: https://projectreactor.io/docs/kafka/release/reference/
+* Guide to Setting Up Apache Kafka Using Docker: https://www.baeldung.com/ops/kafka-docker-setup
 * Terraform: https://www.terraform.io/
 * Kafka Manager: https://github.com/yahoo/kafka-manager
 * Kafka Summit San Francisco 2019: https://www.confluent.io/resources/kafka-summit-san-francisco-2019/
