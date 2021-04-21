@@ -10,21 +10,27 @@ services:
       ALLOW_ANONYMOUS_LOGIN: 1
   kafka:
     image: wurstmeister/kafka:2.13-2.7.0
+    depends_on:
+      - zookeeper
     ports:
       - "9092:9092"
+      - "9093"
     environment:
-      ALLOW_PLAINTEXT_LISTENER: 1
-      KAFKA_ADVERTISED_HOST_NAME: 127.0.0.1
-      KAFKA_CREATE_TOPICS: "Topic1:1:1:delete,testTopic:1:1:delete"
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_CFG_ZOOKEEPER_CONNECT: zookeeper:2181
-  kafka-manager:
-    image: solsson/kafka-manager
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:9093,OUTSIDE://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_LISTENERS: INSIDE://:9093,OUTSIDE://:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+      KAFKA_CREATE_TOPICS: "Topic1:1:1:delete,testTopic:1:1:delete"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+  kafdrop:
+    image: obsidiandynamics/kafdrop
     ports:
       - "9000:9000"
-    links:
-      - kafka
-      - zookeeper
     environment:
-      APPLICATION_SECRET: 123456
-      ZK_HOSTS: zookeeper:2181
+      KAFKA_BROKERCONNECT: kafka:9093
+      JVM_OPTS: "-Xms32M -Xmx64M"
+      SERVER_SERVLET_CONTEXTPATH: "/"
+    depends_on:
+      - kafka
