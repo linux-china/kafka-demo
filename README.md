@@ -52,6 +52,11 @@ It's very easy for local development with lots of tools.  https://www.confluent.
 spring.cloud.stream.kafka.binder.autoCreateTopics=false
 ```
 
+### Articles and Books
+
+* Kafka: The Definitive Guide, 2nd Edition: https://learning.oreilly.com/library/view/kafka-the-definitive/9781492043072/
+* Custom Serializers in Apache Kafka: https://www.baeldung.com/kafka-custom-serializer
+
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
