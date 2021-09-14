@@ -69,3 +69,4 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * kafkacat: Generic non-JVM producer and consumer for Apache Kafka >=0.8, think of it as a netcat for Kafka https://github.com/edenhill/kafkacat
 * bitnami/kafka: https://hub.docker.com/r/bitnami/kafka
 * kcat: Generic command line non-JVM Apache Kafka producer and consumer https://github.com/edenhill/kcat
+* ksqlDB: The database purpose-built for stream processing applications https://ksqldb.io/
