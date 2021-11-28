@@ -1,0 +1,5 @@
+# spring cloud function - sink
+POST http://localhost:8082/sink
+Content-Type: text/plain
+
+Hello World
