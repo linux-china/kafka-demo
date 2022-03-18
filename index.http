@@ -3,3 +3,18 @@ POST http://localhost:8082/sink
 Content-Type: text/plain
 
 Hello World
+
+### send kafka message
+//@name kafka-pub
+PUB testTopic
+Host: kafka://localhost:9092
+Content-Type: application/json
+
+{
+  "name": "Jackie"
+}
+
+###  kafka message
+//@name kafka-sub
+SUB testTopic
+Host: kafka://localhost:9092
