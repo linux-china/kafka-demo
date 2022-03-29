@@ -60,6 +60,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
+* AKHQ: Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry - https://github.com/tchiotludo/akhq
 * Spring Kafka: https://docs.spring.io/spring-kafka/docs/2.3.0.RELEASE/reference/html/
 * Reactor Kafka: https://projectreactor.io/docs/kafka/release/reference/
 * Guide to Setting Up Apache Kafka Using Docker: https://www.baeldung.com/ops/kafka-docker-setup
