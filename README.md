@@ -74,3 +74,4 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * ksqlDB: The database purpose-built for stream processing applications https://ksqldb.io/
 * Kafka: The Definitive Guide, 2nd Edition - https://learning.oreilly.com/library/view/kafka-the-definitive/9781492043072/
 * Deep dive into Apache Kafka storage internals: segments, rolling and retention https://strimzi.io/blog/2021/12/17/kafka-segment-retention/
+* A developer's guide to using Kafka with Java, Part 1: https://developers.redhat.com/articles/2022/04/05/developers-guide-using-kafka-java-part-1
