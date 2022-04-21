@@ -37,6 +37,8 @@ services:
   redpanda:
     image: vectorized/redpanda:latest
     ports:
+      - "18081:8081"
+      - "18082:8082"
       - "19092:9092"
-      - "9644:9644"
+      - "19644:9644"
     command: redpanda start --overprovisioned --smp 1 --memory 1G --reserve-memory 0M --node-id 0 --check=false
