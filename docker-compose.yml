@@ -34,3 +34,9 @@ services:
       SERVER_SERVLET_CONTEXTPATH: "/"
     depends_on:
       - kafka
+  redpanda:
+    image: vectorized/redpanda:latest
+    ports:
+      - "19092:9092"
+      - "9644:9644"
+    command: redpanda start --overprovisioned --smp 1 --memory 1G --reserve-memory 0M --node-id 0 --check=false
