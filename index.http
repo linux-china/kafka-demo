@@ -18,3 +18,14 @@ Content-Type: application/json
 //@name kafka-sub
 SUB testTopic
 Host: kafka://localhost:9092
+
+### schema registry
+POST http://localhost:18081/subjects/sensor-value/versions
+Content-Type: application/vnd.schemaregistry.v1+json
+
+{
+  "schema": "{\"type\":\"record\",\"name\":\"sensor_sample\",\"fields\":[{\"name\":\"timestamp\",\"type\":\"long\",\"logicalType\":\"timestamp-millis\"},{\"name\":\"identifier\",\"type\":\"string\",\"logicalType\":\"uuid\"},{\"name\":\"value\",\"type\":\"long\"}]}"
+}
+
+### get schema info
+GET http://localhost:18081/schemas/ids/1
