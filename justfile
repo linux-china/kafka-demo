@@ -4,3 +4,6 @@ send_message:
 
 sending:
    echo "hello there" | kafkacat -b 127.0.0.1 -t testTopic -H "kafka_messageKey=1"
+
+topic-msg-count:
+    bin/kafka-run-class.sh kafka.tools.GetOffsetShell   --broker-list localhost:9092 --topic baeldung
