@@ -83,6 +83,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * Kafka: The Definitive Guide, 2nd Edition - https://learning.oreilly.com/library/view/kafka-the-definitive/9781492043072/
 * Deep dive into Apache Kafka storage internals: segments, rolling and retention https://strimzi.io/blog/2021/12/17/kafka-segment-retention/
 * A developer's guide to using Kafka with Java, Part 1: https://developers.redhat.com/articles/2022/04/05/developers-guide-using-kafka-java-part-1
+* Get the Number of Messages in an Apache Kafka Topic: https://www.baeldung.com/java-kafka-count-topic-messages
 * Functional Kafka with Spring Cloud:
    - Part 1:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-1-2h7h
    - Part 2:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-2-20g9
