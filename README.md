@@ -85,6 +85,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * A developer's guide to using Kafka with Java, Part 1: https://developers.redhat.com/articles/2022/04/05/developers-guide-using-kafka-java-part-1
 * Get the Number of Messages in an Apache Kafka Topic: https://www.baeldung.com/java-kafka-count-topic-messages
 * 3rd party command line tools for Apache Kafka: https://forum.confluent.io/t/3rd-party-command-line-tools-for-apache-kafka/919/8
+* Building Rust microservices with Apache Kafka: https://blog.logrocket.com/building-rust-microservices-apache-kafka/
 * Functional Kafka with Spring Cloud:
    - Part 1:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-1-2h7h
    - Part 2:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-2-20g9
