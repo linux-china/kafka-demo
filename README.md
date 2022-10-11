@@ -68,6 +68,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 
 * kafka Homepage:  http://kafka.apache.org/
 * Redpanda: a Kafka compatible, ZooKeeper-free, JVM-free product https://redpanda.com/
+* Spring Tips: Spring Boot & Apache Kafka - https://spring.io/blog/2022/10/10/spring-tips-spring-boot-apache-kafka
 * AKHQ: Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry - https://github.com/tchiotludo/akhq
 * Spring Kafka: https://docs.spring.io/spring-kafka/docs/2.3.0.RELEASE/reference/html/
 * Reactor Kafka: https://projectreactor.io/docs/kafka/release/reference/
