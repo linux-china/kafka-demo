@@ -21,7 +21,7 @@ public class MessageOutputTest {
     @Test
     public void testSend() {
         Message<String> message = MessageBuilder.withPayload("Good Afternoon")
-                .setHeader(KafkaHeaders.MESSAGE_KEY, "1".getBytes())
+                .setHeader(KafkaHeaders.KEY, "1".getBytes())
                 .build();
         streamBridge.send("output", message);
     }
