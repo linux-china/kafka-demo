@@ -2,6 +2,8 @@ Kafka Demo
 ==========
 Demo project to interact with Kafka
 
+![Kafka Internal](kafka-internal.png)
+
 ### Development with Docker
 
 Please read following instructions before coding.
