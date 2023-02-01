@@ -67,6 +67,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
+* Kafka: An Overview - https://medium.com/@vinciabhinav7/kafka-an-overview-859c51081a30
 * Redpanda: a Kafka compatible, ZooKeeper-free, JVM-free product https://redpanda.com/
 * Spring Tips: Spring Boot & Apache Kafka - https://spring.io/blog/2022/10/10/spring-tips-spring-boot-apache-kafka
 * AKHQ: Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry - https://github.com/tchiotludo/akhq
@@ -87,6 +88,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * Get the Number of Messages in an Apache Kafka Topic: https://www.baeldung.com/java-kafka-count-topic-messages
 * 3rd party command line tools for Apache Kafka: https://forum.confluent.io/t/3rd-party-command-line-tools-for-apache-kafka/919/8
 * Building Rust microservices with Apache Kafka: https://blog.logrocket.com/building-rust-microservices-apache-kafka/
+* Guide to Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry: https://www.baeldung.com/spring-cloud-stream-kafka-avro-confluent
 * Functional Kafka with Spring Cloud:
    - Part 1:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-1-2h7h
    - Part 2:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-2-20g9
