@@ -14,18 +14,18 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.11</version>
+        <version>3.1.0</version>
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
-        <spring-cloud-stream.version>3.2.6</spring-cloud-stream.version>
-        <spring-cloud-function.version>3.2.7</spring-cloud-function.version>
-        <spring-integration.version>5.5.17</spring-integration.version>
-        <kafka.version>3.4.0</kafka.version>
-        <spring-kafka.version>2.9.8</spring-kafka.version>
+        <spring-cloud-stream.version>4.0.3</spring-cloud-stream.version>
+        <spring-cloud-function.version>4.0.3</spring-cloud-function.version>
+        <spring-integration.version>6.1.0</spring-integration.version>
+        <kafka.version>3.4.1</kafka.version>
+        <spring-kafka.version>3.0.7</spring-kafka.version>
         <reactor-kafka.version>1.3.18</reactor-kafka.version>
     </properties>
 
@@ -76,16 +76,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>junit</groupId>
-                    <artifactId>junit</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -101,7 +91,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>31.1-jre</version>
+            <version>32.0.1-jre</version>
         </dependency>
         <dependency>
             <groupId>com.salesforce.kafka.test</groupId>
