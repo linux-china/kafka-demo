@@ -70,6 +70,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 
 * kafka Homepage:  http://kafka.apache.org/
 * Kafka: An Overview - https://medium.com/@vinciabhinav7/kafka-an-overview-859c51081a30
+* Kafka vs Redpanda Performance - Do the claims add up? https://jack-vanlightly.com/blog/2023/5/15/kafka-vs-redpanda-performance-do-the-claims-add-up
 * Apache Kafka: A Quickstart Guide for Developers - https://dev.to/ciscoemerge/apache-kafka-a-quickstart-guide-for-developers-80p?s=09
 * Redpanda: a Kafka compatible, ZooKeeper-free, JVM-free product https://redpanda.com/
 * Spring Tips: Spring Boot & Apache Kafka - https://spring.io/blog/2022/10/10/spring-tips-spring-boot-apache-kafka
