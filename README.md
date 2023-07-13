@@ -94,6 +94,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * 3rd party command line tools for Apache Kafka: https://forum.confluent.io/t/3rd-party-command-line-tools-for-apache-kafka/919/8
 * Building Rust microservices with Apache Kafka: https://blog.logrocket.com/building-rust-microservices-apache-kafka/
 * Guide to Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry: https://www.baeldung.com/spring-cloud-stream-kafka-avro-confluent
+* Documenting Spring Event-Driven API Using AsyncAPI and Springwolf: https://www.baeldung.com/java-spring-doc-asyncapi-springwolf
 * Functional Kafka with Spring Cloud:
    - Part 1:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-1-2h7h
    - Part 2:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-2-20g9
