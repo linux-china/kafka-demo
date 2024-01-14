@@ -69,6 +69,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 ### References
 
 * kafka Homepage:  http://kafka.apache.org/
+* Kafka Cheatsheet: https://www.javacodegeeks.com/apache-kafka-cheatsheet.html
 * Kafka: An Overview - https://medium.com/@vinciabhinav7/kafka-an-overview-859c51081a30
 * Apache Kafka Essentials Cheatsheet: https://www.javacodegeeks.com/apache-kafka-essentials-cheatsheet
 * Kafka vs Redpanda Performance - Do the claims add up? https://jack-vanlightly.com/blog/2023/5/15/kafka-vs-redpanda-performance-do-the-claims-add-up
@@ -96,7 +97,6 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * Building Rust microservices with Apache Kafka: https://blog.logrocket.com/building-rust-microservices-apache-kafka/
 * Guide to Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry: https://www.baeldung.com/spring-cloud-stream-kafka-avro-confluent
 * Documenting Spring Event-Driven API Using AsyncAPI and Springwolf: https://www.baeldung.com/java-spring-doc-asyncapi-springwolf
-* How to Start Apache Kafka Server with KRaft: https://www.appsdeveloperblog.com/start-apache-kafka-server-with-kraft/
 * Functional Kafka with Spring Cloud:
    - Part 1:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-1-2h7h
    - Part 2:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-2-20g9
