@@ -96,6 +96,7 @@ spring.cloud.stream.kafka.binder.autoCreateTopics=false
 * Building Rust microservices with Apache Kafka: https://blog.logrocket.com/building-rust-microservices-apache-kafka/
 * Guide to Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry: https://www.baeldung.com/spring-cloud-stream-kafka-avro-confluent
 * Documenting Spring Event-Driven API Using AsyncAPI and Springwolf: https://www.baeldung.com/java-spring-doc-asyncapi-springwolf
+* How to Start Apache Kafka Server with KRaft: https://www.appsdeveloperblog.com/start-apache-kafka-server-with-kraft/
 * Functional Kafka with Spring Cloud:
    - Part 1:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-1-2h7h
    - Part 2:  https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-2-20g9
